@@ -87,7 +87,19 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .arrow:hover {
+    .logo:hover {
+        opacity: 1;
+    }
+    .nav_links li a:hover {
+        color: var(--black);
+    }
+    .button:hover {
+        opacity: 1;
+    }
+    .learn_more:hover {
+        opacity: 1;
+    }
+    .learn_more:hover .arrow {
         width: 34px;
     }
 
