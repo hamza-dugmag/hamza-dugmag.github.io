@@ -1,5 +1,4 @@
 scp -r C:/Users/hdugm/OneDrive/Desktop/public_html dugmagha@bastet.eecg.toronto.edu:
 
-- Alternating projects
-- Images move based on mouse position
-- Elaborate on about
+- Custom illustrated thumbnails
+- Projects page template
