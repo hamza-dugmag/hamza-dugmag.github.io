@@ -102,6 +102,9 @@ header {
     width: 146px;
     cursor: pointer;
 }
+.logo:hover {
+    opacity: 0.6;
+}
 
 .nav_links {
     list-style: none;
