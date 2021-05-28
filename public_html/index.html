@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hello · Hamza Dugmag</title>
+        <link rel="icon" href="images/favicon.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" href="styles/about.css">
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous">
+        </script>
+        <script>
+            $(function(){
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+            });
+        </script>
+    </head>
+    <body>
+        <header id="header"></header>
+
+        <!-- MAIN SECTION ======================================================================= -->
+        <section class="section_main" id="section_1">
+            <div class="project">
+                <img class="photograph" src="images/headshot-compressed.jpg" alt="headshot">
+                <div class="divider"></div>
+                <div class="description">
+                    <h2>U of T Engineering Science</h2>
+                    <h1>Hamza Dugmag</h1>
+                    <p>I'm a passionate designer interested in robotics, video games, identity design, and taekwondo. I use the world I have to build the world I want.<br><br>Welcome to my portfolio (under construction).</p>
+                    <a href="files/Hamza_Dugmag_Resume.pdf" target="_blank"><div class="learn_more">
+                        <img class="arrow" src="images/arrow_orange.svg" alt="view resume">
+                        <p>View Resume</p>
+                    </div></a>
+                    <a href="#"><div class="learn_more">
+                        <img class="arrow" src="images/arrow_orange.svg" alt="view resume">
+                        <p>View Philosophy</p>
+                    </div></a>
+                </div>
+            </div>
+        </section>
+        <!-- MAIN SECTION ======================================================================= -->
+
+        <footer id="footer"></footer>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

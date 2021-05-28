@@ -1,0 +1,107 @@
+/* =================================== MAIN SECTION =================================== */
+.section_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10%;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+}
+
+.photograph, .description, .divider {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.photograph {
+    width: 500px;
+}
+
+.divider {
+    width: 1px;
+    height: 600px;
+    background-color: #8A8A8A;
+}
+
+.description {
+    width: 330px;
+}
+
+.description * {
+    padding: 5px 0;
+}
+
+.learn_more {
+    /* padding-bottom: 0; */
+    padding: 2px 0;
+}
+
+
+/* =================================== COLORS =================================== */
+#section_1 h1, #section_1 .learn_more p {
+    color: var(--orange);
+}
+
+
+/* =================================== SMALLER SCREENS =================================== */
+@media only screen and (max-width: 1200px) {
+    .divider {
+        display: none;
+        margin: 0;
+    }
+    
+    .project {
+        display: block;
+        margin: 0;
+    }
+
+    .photograph, .description {
+        display: block;
+        margin: 0 0;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        width: 400px;
+    }
+
+    .nav_links li {
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    footer {
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .arrow:hover {
+        width: 34px;
+    }
+
+    header {
+        padding: 30px 10%;
+    }
+
+    .photograph, .description {
+        width: 100%;
+    }
+
+    .section_main {
+        padding: 20px 10%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        height: 30px;
+    }
+
+    .button {
+        display: none;
+    }
+}

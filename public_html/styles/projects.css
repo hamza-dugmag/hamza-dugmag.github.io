@@ -1,0 +1,121 @@
+/* =================================== MAIN SECTION =================================== */
+.section_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    margin: 60px 0;
+}
+
+#section_first {
+    margin-top: 80px;
+}
+
+#section_last {
+    margin-bottom: 140px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+}
+
+.photograph, .description {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.photograph {
+    width: 700px;
+}
+
+.description {
+    width: 330px;
+}
+
+.description * {
+    padding: 5px 0;
+}
+
+.learn_more {
+    /* padding-bottom: 0; */
+    padding: 2px 0;
+}
+
+
+/* =================================== SMALLER SCREENS 960 600=================================== */
+.photograph.mobile_view {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .photograph.mobile_view {
+        display: inline-block;
+    }
+    .photograph.web_view {
+        display: none;
+    }
+
+    .project {
+        display: block;
+        margin: 0;
+    }
+
+    .photograph, .description {
+        display: block;
+        margin: 0 0;
+        margin-bottom: 20px;
+    }
+
+    #section_last {
+        margin-bottom: 110px;
+    }
+
+    .description {
+        width: 600px;
+    }
+
+    .nav_links li {
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    footer {
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .arrow:hover {
+        width: 34px;
+    }
+
+    header {
+        padding: 30px 10%;
+    }
+
+    .photograph, .description {
+        width: 100%;
+    }
+
+    .section_main {
+        margin: 20px 0;
+    }
+    
+    #section_first {
+        margin-top: 20px;
+    }
+    
+    #section_last {
+        margin-bottom: 60px;
+    }
+
+    footer {
+        height: 30px;
+    }
+
+    .button {
+        display: none;
+    }
+}

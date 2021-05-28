@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Game Design · Hamza Dugmag</title>
+        <link rel="icon" href="images/favicon.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" href="styles/projects.css">
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous">
+        </script>
+        <script>
+            $(function(){
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+            });
+        </script>
+        <style>
+            /* COLORS =========================================================================== */
+            #page_3 {
+                color: var(--orange);
+            }
+
+            #section_first h1, #section_first .learn_more p {
+                color: var(--purple);
+            }
+
+            #section_2 h1, #section_2 .learn_more p {
+                color: var(--brown);
+            }
+
+            #section_last h1, #section_last .learn_more p {
+                color: var(--green);
+            }
+        </style>
+    </head>
+    <body>
+        <header id="header"></header>
+
+        <!-- MAIN SECTION ======================================================================= -->
+        <section class="section_main" id="section_first">
+            <div class="project">
+                <img class="photograph" src="images/eng_1-compressed.jpg" alt="photograph">
+                <div class="description">
+                    <h2>Praxis II Showcase</h2>
+                    <h1>Voice-Evo</h1>
+                    <p>A voice-activated ski airbag trigger system.</p>
+                    <a href="#"><div class="learn_more">
+                        <img class="arrow" src="images/arrow_purple.svg" alt="view project">
+                        <p>View Project</p>
+                    </div></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_main" id="section_2">
+            <div class="project">
+                <img class="photograph mobile_view" src="images/eng_2-compressed.jpg" alt="photograph">
+                <div class="description">
+                    <h2>U of T Aerospace Team · Rocketry Avionics</h2>
+                    <h1>Liquid Rocket Flight System</h1>
+                    <p>A custom finite state machine model for controlling the Houbolt Jr. flight system.</p>
+                    <a href="#"><div class="learn_more">
+                        <img class="arrow" src="images/arrow_brown.svg" alt="view project">
+                        <p>View Project</p>
+                    </div></a>
+                </div>
+                <img class="photograph web_view" src="images/eng_2-compressed.jpg" alt="photograph">
+            </div>
+        </section>
+
+        <section class="section_main" id="section_last">
+            <div class="project">
+                <img class="photograph" src="images/eng_3-compressed.jpg" alt="photograph">
+                <div class="description">
+                    <h2>CIV102 Project</h2>
+                    <h1>Box Girder Bridge</h1>
+                    <p>Two bridges designed to support a moving load.</p>
+                    <a href="#"><div class="learn_more">
+                        <img class="arrow" src="images/arrow_green.svg" alt="view project">
+                        <p>View Project</p>
+                    </div></a>
+                </div>
+            </div>
+        </section>
+        <!-- MAIN SECTION ======================================================================= -->
+
+        <footer id="footer"></footer>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
