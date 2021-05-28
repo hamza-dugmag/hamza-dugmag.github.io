@@ -83,6 +83,26 @@ p {
     color: var(--black);
 }
 
+/* =================================== HOVERING =================================== */
+@media (hover: hover) and (pointer: fine) {
+    .logo:hover {
+        opacity: 0.6;
+    }
+    .nav_links li a:hover {
+        color: var(--orange);
+    }
+    .button:hover {
+        opacity: 0.8;
+    }
+    .learn_more:hover {
+        opacity: 0.8;
+    }
+    .learn_more:hover .arrow {
+        animation: enlarge 0.15s;
+        width: 44px;
+    }
+}
+
 /* =================================== NAVIGATION =================================== */
 li, a {
     font-family: Canela-Regular;
@@ -103,9 +123,9 @@ header {
     width: 146px;
     cursor: pointer;
 }
-.logo:hover {
+/* .logo:hover {
     opacity: 0.6;
-}
+} */
 
 .nav_links {
     list-style: none;
@@ -116,9 +136,9 @@ header {
     padding: 0px 40px;
 }
 
-.nav_links li a:hover {
+/* .nav_links li a:hover {
     color: var(--orange);
-}
+} */
 
 .button div {
     padding: 9px 25px;
@@ -132,20 +152,15 @@ header {
     color: var(--white);
     text-decoration: none;
 }
-.button:hover {
+/* .button:hover {
     opacity: 0.8;
-}
-
-/* =================================== VIEW BUTTON =================================== */
-/* .description a:hover {
-    cursor: default;
 } */
 
+/* =================================== VIEW BUTTON =================================== */
 .learn_more {
     display: flex;
     align-items: center;
     background-color: transparent;
-    /* width: fit-content; */
 }
 
 .learn_more * {
@@ -158,13 +173,13 @@ header {
     padding-left: 10px;
 }
 
-.learn_more:hover {
+/* .learn_more:hover {
     opacity: 0.8;
 }
 .learn_more:hover .arrow {
     animation: enlarge 0.15s;
     width: 44px;
-}
+} */
 
 .arrow {
     width: 34px;

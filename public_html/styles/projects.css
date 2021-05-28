@@ -87,7 +87,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .logo:hover {
+    /* .logo:hover {
         opacity: 1;
     }
     .nav_links li a:hover {
@@ -101,7 +101,7 @@
     }
     .learn_more:hover .arrow {
         width: 34px;
-    }
+    } */
 
     header {
         padding: 30px 10%;
