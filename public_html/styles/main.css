@@ -156,15 +156,19 @@ header {
 .learn_more:hover {
     opacity: 0.8;
 }
+.learn_more:hover .arrow {
+    animation: enlarge 0.15s;
+    width: 44px;
+}
 
 .arrow {
     width: 34px;
     animation: shrink 0.15s;
 }
-.arrow:hover {
+/* .arrow:hover {
     animation: enlarge 0.15s;
     width: 44px;
-}
+} */
 @keyframes enlarge {
     0% { width: 34px; }
     100% { width: 44px; }
