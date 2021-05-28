@@ -1,5 +1,0 @@
-scp -r C:/Users/hdugm/OneDrive/Desktop/public_html dugmagha@bastet.eecg.toronto.edu:
-rm -rf public_html
-
-- Custom illustrated thumbnails
-- Projects page template

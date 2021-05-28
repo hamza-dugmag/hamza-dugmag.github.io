@@ -137,10 +137,15 @@ header {
 }
 
 /* =================================== VIEW BUTTON =================================== */
+/* .description a:hover {
+    cursor: default;
+} */
+
 .learn_more {
     display: flex;
     align-items: center;
     background-color: transparent;
+    /* width: fit-content; */
 }
 
 .learn_more * {
