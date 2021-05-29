@@ -101,14 +101,15 @@ p {
     .learn_more:hover .arrow {
         animation: enlarge 0.15s;
         width: 44px;
+        height: 44px;
     }
     @keyframes enlarge {
-        0% { width: 34px; }
-        100% { width: 44px; }
+        0% { width: 34px; height: 34px; }
+        100% { width: 44px; height: 44px; }
     }
     @keyframes shrink {
-        0% { width: 44px; }
-        100% { width: 34px; }
+        0% { width: 44px; height: 44px; }
+        100% { width: 34px; height: 34px; }
     }
 }
 
@@ -191,6 +192,7 @@ header {
 } */
 
 .arrow {
+    box-sizing: content-box;
     width: 34px;
     animation: shrink 0.15s;
 }
