@@ -102,6 +102,14 @@ p {
         animation: enlarge 0.15s;
         width: 44px;
     }
+    @keyframes enlarge {
+        0% { width: 34px; }
+        100% { width: 44px; }
+    }
+    @keyframes shrink {
+        0% { width: 44px; }
+        100% { width: 34px; }
+    }
 }
 
 /* =================================== NAVIGATION =================================== */
@@ -190,14 +198,14 @@ header {
     animation: enlarge 0.15s;
     width: 44px;
 } */
-@keyframes enlarge {
+/* @keyframes enlarge {
     0% { width: 34px; }
     100% { width: 44px; }
 }
 @keyframes shrink {
     0% { width: 44px; }
     100% { width: 34px; }
-}
+} */
 
 
 /* =================================== FOOTER =================================== */
