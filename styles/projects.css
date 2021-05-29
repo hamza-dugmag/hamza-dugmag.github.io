@@ -110,6 +110,7 @@
 
     .photograph, .description {
         width: 100%;
+        height: auto;
     }
 
     .section_main {
