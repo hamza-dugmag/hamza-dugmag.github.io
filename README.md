@@ -5,6 +5,5 @@ A custom, responsive, and branded website showcasing my work in engineering, gra
 
 **Todo**
 - [ ] Create custom, illustrated thumbnails (gray background)
-- [ ] Create "project" page template
 
 © 2003-2021 HAMZA DUGMAG
