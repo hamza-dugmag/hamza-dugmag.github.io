@@ -53,9 +53,12 @@
     .photograph.mobile_view {
         display: inline-block;
     }
-    .photograph.web_view, .download {
+    .photograph.web_view {
         display: none;
     }
+    /* .download {
+        display: none;
+    } */
 
     .project {
         display: block;
