@@ -53,7 +53,7 @@
     .photograph.mobile_view {
         display: inline-block;
     }
-    .photograph.web_view {
+    .photograph.web_view, .download {
         display: none;
     }
 
