@@ -1,0 +1,103 @@
+<!-- © 2003-2021 HAMZA DUGMAG -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Visual Design · Hamza Dugmag</title>
+        <link rel="icon" href="images/favicon.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" href="styles/projects.css">
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+        <script>
+            $(function(){
+                $("#header").load("styles/header.html");
+                $("#footer").load("styles/footer.html");
+            });
+        </script>
+        <style>
+            /* COLORS =========================================================================== */
+            #page_2 {
+                color: var(--orange);
+            }
+
+            #section_first h1, #section_first .learn_more p {
+                color: var(--oak);
+            }
+
+            #section_2 h1, #section_2 .learn_more p {
+                color: var(--red);
+            }
+
+            #section_last h1, #section_last .learn_more p {
+                color: var(--steel);
+            }
+        </style>
+    </head>
+    <body>
+        <header id="header"></header>
+
+        <!-- MAIN SECTION ======================================================================= -->
+        <section class="section_main" id="section_first">
+            <div class="project">
+                <img class="photograph" width="700" height="413" src="images/vis_2-compressed.jpg" alt="photograph">
+                <div class="description">
+                    <h2>Western University's W5 Accelerator</h2>
+                    <h1>GreenCap</h1>
+                    <p>Empowering online shoppers to support green and ethical brands through a free browser extension.</p>
+                    <a href="https://github.com/hamza-dugmag/green-cap" target="_blank"><div class="learn_more">
+                        <img class="arrow" width="34" height="34" src="images/arrow_oak.svg" alt="view project">
+                        <p>View Project</p>
+                    </div></a>
+                    <a href="files/Hamza_Dugmag_GreenCap_Pitch.pdf" target="_blank"><div class="learn_more">
+                        <img class="arrow" width="34" height="34" src="images/arrow_oak.svg" alt="view project">
+                        <p>View Presentation</p>
+                    </div></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_main" id="section_2">
+            <div class="project">
+                <img class="photograph mobile_view" src="images/vis_1-compressed.jpg" alt="photograph">
+                <div class="description">
+                    <h2>Mixed Media Project</h2>
+                    <h1>Pashazades Clothing Co.</h1>
+                    <p>A t-shirt brand aimed at capturing the Arab and Islamic culture.</p>
+                    <a href="files/Hamza_Dugmag_Pashazades_Collection.pdf" target="_blank"><div class="learn_more">
+                        <img class="arrow" width="34" height="34" src="images/arrow_red.svg" alt="view project">
+                        <p>View Catalog</p>
+                    </div></a>
+                </div>
+                <img class="photograph web_view" width="700" height="413" src="images/vis_1-compressed.jpg" alt="photograph">
+            </div>
+        </section>
+
+        <section class="section_main" id="section_last">
+            <div class="project">
+                <img class="photograph" width="700" height="413" src="images/vis_3-compressed.jpg" alt="photograph">
+                <div class="description">
+                    <h2>Silicon Halton</h2>
+                    <h1>Tech Under Twenty</h1>
+                    <p>A youth organization dedicated to bridging the gap between students and the technology industry.</p>
+                    <a href="files/Hamza_Dugmag_TU20_Plan.pdf" target="_blank"><div class="learn_more">
+                        <img class="arrow" width="34" height="34" src="images/arrow_steel.svg" alt="view project">
+                        <p>View Marketing Plan</p>
+                    </div></a>
+                    <a href="files/Hamza_Dugmag_TU20_Proposal.pdf" target="_blank"><div class="learn_more">
+                        <img class="arrow" width="34" height="34" src="images/arrow_steel.svg" alt="view project">
+                        <p>View Rebrand Proposal</p>
+                    </div></a>
+                </div>
+            </div>
+        </section>
+        <!-- MAIN SECTION ======================================================================= -->
+
+        <footer id="footer"></footer>
+    </body>
+</html>
