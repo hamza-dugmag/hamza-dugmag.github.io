@@ -64,7 +64,7 @@ body {
 
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover {
     background: var(--black);
-    border-radius: 50px;
+    /* border-radius: 50px; */
 }
 
 h1 {
