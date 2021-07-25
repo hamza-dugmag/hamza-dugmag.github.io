@@ -5,5 +5,6 @@ A custom, responsive, and branded website showcasing my work in engineering, gra
 
 TODO:
 - Keywords metadata
+- Add MATLAB project
 
 © 2003-2021 HAMZA DUGMAG
