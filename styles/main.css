@@ -172,7 +172,10 @@ header {
 @media only screen and (max-width: 800px) {
     .nav_links li a {
         float: right;
-        padding: 5px 0px;
+        padding: 4px 0px;
+    }
+    header {
+        padding: 30px 5%;
     }
     /* sketchy implementation :( */
 }
