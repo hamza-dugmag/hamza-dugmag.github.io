@@ -97,9 +97,9 @@
         width: 34px;
     } */
 
-    /* header {
-        padding: 30px 5%;
-    } */
+    header {
+        padding: 30px 10%;
+    }
 
     .photograph, .description {
         width: 100%;
@@ -107,7 +107,7 @@
     }
 
     .section_main {
-        padding: 20px 5%;
+        padding: 20px 10%;
         margin-bottom: 20px;
     }
 
