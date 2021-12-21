@@ -166,6 +166,14 @@ header {
     opacity: 0.8;
 } */
 
+@media only screen and (max-width: 800px) {
+    .nav_links li a {
+        float: right;
+        padding: 5px 0px;
+    }
+    /* sketchy implementation :( */
+}
+
 /* =================================== VIEW BUTTON =================================== */
 .learn_more {
     display: flex;
