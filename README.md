@@ -5,7 +5,8 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 TODO:
 - Add Research Design section
-- Review project descriptions
+- Import italic Helvetica
+- Review project descriptions, pdf metadata
 - Change resume style
 
 © 2003-2022 HAMZA DUGMAG
