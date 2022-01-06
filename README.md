@@ -4,7 +4,6 @@
 A custom, responsive, and branded website showcasing my work in engineering, graphic design, and game development.
 
 TODO:
-- Add MATLAB project
 - Add Research Design section
 - Change resume style
 
