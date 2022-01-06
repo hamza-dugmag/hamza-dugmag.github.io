@@ -25,6 +25,11 @@
     src: url("../fonts/Helvetica/HelveticaNeueLTStd-Bd.otf");
 }
 
+@font-face {
+    font-family: Helvetica-Italic;
+    src: url("../fonts/Helvetica/HelveticaNeueLTStd-It.otf");
+}
+
 :root {
     --orange: #F93501;
     --red: #A52E41;
