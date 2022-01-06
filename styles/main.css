@@ -6,6 +6,11 @@
 }
 
 @font-face {
+    font-family: Canela-RegularItalic;
+    src: url("../fonts/Canela/Canela-RegularItalic.otf");
+}
+
+@font-face {
     font-family: Canela-ThinItalic;
     src: url("../fonts/Canela/Canela-ThinItalic.otf");
 }
