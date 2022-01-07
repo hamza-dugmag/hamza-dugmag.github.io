@@ -4,8 +4,6 @@
 A custom, responsive, and branded website showcasing my work in engineering, research, graphic design, and game development.
 
 TODO:
-- Add Research Design section
-- Import italic Helvetica
 - Review project descriptions, pdf metadata
 - Change resume style
 

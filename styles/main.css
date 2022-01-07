@@ -88,6 +88,9 @@ p {
     font-size: 14px;
     color: var(--black);
 }
+.italics {
+    font-family: Helvetica-Italic;
+}
 
 /* =================================== HOVERING =================================== */
 @media (hover: hover) and (pointer: fine) {
