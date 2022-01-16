@@ -181,6 +181,7 @@ header {
     .nav_links li a {
         float: right;
         padding: 4px 0px;
+        text-decoration: underline;
     }
     /* sketchy implementation :( */
 }
