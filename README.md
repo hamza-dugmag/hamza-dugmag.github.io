@@ -3,7 +3,4 @@
 
 A custom, responsive, and branded website showcasing my work in engineering, research, graphic design, and game development.
 
-TODO:
-- Change resume style
-
 © 2003-2022 HAMZA DUGMAG
