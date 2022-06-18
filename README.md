@@ -9,7 +9,6 @@ Todo:
 - [ ] ESC204
 - [ ] Ground System
 - [ ] Remove Flight System
-- [ ] Remove TU20
 - [ ] ASRL research
 - [ ] gif thumbnail when hovered
 
