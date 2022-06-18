@@ -5,9 +5,9 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] ESC204
-- [ ] ASRL research
+- [ ] Update resume
 - [ ] Improve Pashazades (slideshow)
-- [ ] gif thumbnail when hovered
+- [ ] ESC204?
+- [ ] Remove VoiceEvo?
 
 © 2003-2022 HAMZA DUGMAG
