@@ -10,6 +10,7 @@ Todo:
 - [ ] Ground System
 - [ ] Remove Flight System
 - [ ] ASRL research
+- [ ] Improve Pashazades (slideshow)
 - [ ] gif thumbnail when hovered
 
 © 2003-2022 HAMZA DUGMAG
