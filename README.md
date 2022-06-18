@@ -5,7 +5,6 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] Update resume
 - [ ] Improve Pashazades (slideshow)
 - [ ] ESC204?
 - [ ] Remove VoiceEvo?
