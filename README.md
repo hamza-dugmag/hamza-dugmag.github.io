@@ -5,11 +5,8 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] Fix HID thumbnail
-- [ ] ESC204
-- [ ] Ground System
-- [ ] Remove Flight System
-- [ ] ASRL research
-- [ ] gif thumbnail when hovered
+- [ ] Improve Pashazades (slideshow)?
+- [ ] ESC204?
+- [ ] Remove VoiceEvo?
 
 © 2003-2022 HAMZA DUGMAG
