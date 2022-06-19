@@ -5,6 +5,7 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
+- [ ] The Cross Over cards
 - [ ] Improve Pashazades (slideshow)?
 - [ ] ESC204?
 - [ ] Remove VoiceEvo?
