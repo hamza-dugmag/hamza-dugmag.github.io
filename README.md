@@ -7,6 +7,6 @@ Todo:
 
 - [ ] The Cross Over cards
 - [ ] Improve Pashazades (slideshow)?
-- [ ] ESC204?
+- [ ] Replace ESC102 with ESC204?
 
 © 2003-2022 HAMZA DUGMAG
