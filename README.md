@@ -5,9 +5,9 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] The Cross Over cards?
-- [ ] Improve Pashazades (slideshow)?
-- [ ] Replace ESC102 with ESC204?
-- [ ] Add PHY180?
+- [ ] Digital Design: The Cross Over cards?
+- [ ] Digital Design: Improve Pashazades (slideshow)?
+- [ ] Engineering Design: Replace ESC102 with ESC204?
+- [ ] Research Design: Add PHY180?
 
 © 2003-2022 HAMZA DUGMAG
