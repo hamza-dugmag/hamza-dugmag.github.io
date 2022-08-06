@@ -9,5 +9,6 @@ Todo:
 - [ ] Digital Design: Improve Pashazades (slideshow)?
 - [ ] Engineering Design: Replace ESC102 with ESC204?
 - [ ] Research Design: Add PHY180?
+- [ ] Fix sitelinks
 
 © 2003-2022 HAMZA DUGMAG
