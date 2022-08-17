@@ -5,6 +5,7 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
+- [ ] Research Design: Create ASRL PowerPoint presentation
 - [ ] Digital Design: The Cross Over cards?
 - [ ] Digital Design: Improve Pashazades (slideshow)?
 - [ ] Engineering Design: Replace ESC102 with ESC204?
