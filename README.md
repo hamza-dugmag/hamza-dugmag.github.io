@@ -5,11 +5,10 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] Research Design: Create ASRL PowerPoint presentation
-- [ ] Digital Design: The Cross Over cards?
-- [ ] Digital Design: Improve Pashazades (slideshow)?
-- [ ] Engineering Design: Replace ESC102 with ESC204?
-- [ ] Research Design: Add PHY180?
+- [ ] Engineering Design: Avionics thumbnail saturation
+- [ ] Engineering Design: Adjustable power supply
+- [ ] Research Design: ASRL presentation
+- [ ] Update resume
 - [ ] Fix sitelinks
 
 © 2003-2023 HAMZA DUGMAG
