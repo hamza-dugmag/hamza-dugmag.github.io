@@ -5,7 +5,6 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] Engineering Design: Avionics thumbnail saturation
 - [ ] Engineering Design: Adjustable power supply
 - [ ] Research Design: ASRL presentation
 - [ ] Update resume
