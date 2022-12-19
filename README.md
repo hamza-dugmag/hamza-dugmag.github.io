@@ -12,4 +12,4 @@ Todo:
 - [ ] Research Design: Add PHY180?
 - [ ] Fix sitelinks
 
-© 2003-2022 HAMZA DUGMAG
+© 2003-2023 HAMZA DUGMAG
