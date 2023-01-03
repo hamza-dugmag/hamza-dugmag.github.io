@@ -5,7 +5,6 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] Engineering Design: Tremolo pedal
 - [ ] Research Design: ASRL presentation
 - [ ] Fix sitelinks
 
