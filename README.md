@@ -5,7 +5,8 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] Research Design: ASRL presentation?
 - [ ] Fix sitelinks
+- [ ] Screen size -based zoom
+- [ ] New logo?
 
 © 2003-2023 HAMZA DUGMAG
