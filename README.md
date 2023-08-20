@@ -7,6 +7,8 @@ Todo:
 
 - [ ] Fix sitelinks; upload sitemap
 - [ ] Zoom based on screen size?
+- [ ] PDF Favicon
+- [ ] Rename images
 - [ ] New logo?
 - [ ] Change thumbnails
 
