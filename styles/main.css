@@ -214,7 +214,7 @@ header {
 .arrow {
     box-sizing: content-box;
     width: 34px;
-    animation: shrink 0.15s;
+    /* animation: shrink 0.15s; */
 }
 /* .arrow:hover {
     animation: enlarge 0.15s;
@@ -233,7 +233,7 @@ header {
     box-sizing: content-box;
     width: 34px;
     margin-right: 10px;
-    animation: shrink 0.15s;
+    /* animation: shrink 0.15s; */
 }
 
 /* =================================== FOOTER =================================== */
@@ -258,7 +258,7 @@ footer {
 
 
 /* =================================== ANIMATIONS =================================== */
-.photograph {
+/* .photograph {
     animation: fadeIn 2s;
     -webkit-animation: fadeIn 2s;
     -moz-animation: fadeIn 2s;
@@ -284,4 +284,4 @@ footer {
 @-ms-keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
-}
+} */
