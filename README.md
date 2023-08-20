@@ -5,8 +5,9 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] Fix sitelinks
+- [ ] Fix sitelinks - upload sitemap
 - [ ] Screen size -based zoom
 - [ ] New logo?
+- [ ] Change thumbnails
 
 © 2003-2023 HAMZA DUGMAG
