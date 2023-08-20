@@ -11,5 +11,6 @@ Todo:
 - [ ] Rename images
 - [ ] New logo?
 - [ ] Change thumbnails
+- [ ] Prevent hover reaction outside button
 
 © 2003-2023 HAMZA DUGMAG
