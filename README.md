@@ -5,8 +5,8 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] Fix sitelinks - upload sitemap
-- [ ] Screen size -based zoom
+- [ ] Fix sitelinks; upload sitemap
+- [ ] Zoom based on screen size?
 - [ ] New logo?
 - [ ] Change thumbnails
 
