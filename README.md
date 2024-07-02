@@ -13,4 +13,4 @@ Todo:
 - [ ] Prevent hover reaction outside button
 - [ ] Custom cursor
 
-© 2003-2023 HAMZA DUGMAG
+© 2003-2024 HAMZA DUGMAG
