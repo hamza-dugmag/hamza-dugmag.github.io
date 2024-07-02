@@ -125,6 +125,11 @@ p {
 }
 
 /* =================================== NAVIGATION =================================== */
+.p_link {
+    font-family: Helvetica-Roman;
+    text-decoration: underline;
+}
+
 li, a {
     font-family: Canela-Regular;
     font-size: 14px;
