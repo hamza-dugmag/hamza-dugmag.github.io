@@ -1,4 +1,4 @@
-/* © 2003-2022 HAMZA DUGMAG */
+/* © 2003-2024 HAMZA DUGMAG */
 /* =================================== MAIN SECTION =================================== */
 .section_main {
     display: flex;
@@ -119,11 +119,11 @@
     .section_main {
         margin: 20px 0;
     }
-    
+
     #section_first {
         margin-top: 20px;
     }
-    
+
     #section_last {
         margin-bottom: 60px;
     }

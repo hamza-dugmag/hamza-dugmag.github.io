@@ -3,36 +3,25 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Hamza Dugmag's engineering design projects.">
-        <meta name="keywords" content="Design, Engineering, Research, Game">
+        <meta name="description" content="Hamza Dugmag's personal projects.">
+        <meta name="keywords" content="Electrical Engineering, Power Electronics, VLSI, Microwave Systems">
         <meta name="author" content="Hamza Dugmag">
 
-        <meta property="og:title" content="Engineering Design · Hamza Dugmag"/>
-        <meta property="og:image" content="images/eng_6-compressed.jpg"/>
-        <meta property="og:description" content="Hamza Dugmag's Engineering Design Projects"/>
-        <meta property="og:url" content="https://hamzadugmag.com/engineering"/>
+        <meta property="og:title" content="Personal Projects · Hamza Dugmag"/>
+        <meta property="og:image" content="images/res_3-compressed.jpg"/>
+        <meta property="og:description" content="Hamza Dugmag's Personal Projects"/>
+        <meta property="og:url" content="https://hamzadugmag.com/research"/>
         <meta property="og:type" content="website"/>
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Engineering Design · Hamza Dugmag</title>
+        <title>Personal Projects · Hamza Dugmag</title>
         <link rel="icon" href="favicon.svg">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
-        <link rel="stylesheet" type="text/css" href="styles/projects.css">
-        <!-- <script
-            src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-            crossorigin="anonymous">
-        </script>
-        <script>
-            $(function(){
-                $("#header").load("styles/header.html");
-                $("#footer").load("styles/footer.html");
-            });
-        </script> -->
+        <link rel="stylesheet" type="text/css" href="styles/showcase.css">
         <style>
             /* COLORS =========================================================================== */
-            #page_1 {
+            #page_2 {
                 color: var(--orange);
             }
 
@@ -58,9 +47,8 @@
             <a href="https://hamzadugmag.com/" target="_self"><img class="logo" src="images/logo.svg" alt="Hamza Dugmag's logo."></a>
             <nav>
                 <ul class="nav_links">
-                    <li><a href="engineering" id="page_1">Engineering Design</a></li>
-                    <li><a href="research" id="page_2">Research Design</a></li>
-                    <li><a href="games" id="page_3">Game Design</a></li>
+                    <li><a href="experience" id="page_1">Professional Experience</a></li>
+                    <li><a href="projects" id="page_2">Personal Projects</a></li>
                 </ul>
             </nav>
             <a class="button" href="files/Hamza_Dugmag_Resume.pdf" target="_blank"><div>View Resume</div></a>
@@ -69,15 +57,14 @@
         <!-- MAIN SECTION ======================================================================= -->
         <section class="section_main" id="section_first">
             <div class="project">
-                <!-- <img class="photograph" width="700" height="413" src="images/eng_7-compressed.jpg" alt="Guitar tremolo pedal thumbnail."> -->
                 <img class="photograph mobile_view" width="700" height="413" src="images/eng_7-compressed.jpg" alt="Guitar tremolo pedal thumbnail.">
                 <img class="photograph web_view" width="700" height="413" src="images/eng_7-compressed.jpg" alt="Guitar tremolo pedal thumbnail.">
                 <div class="description">
-                    <h2>2023</h2>
+                    <h2>01/2023</h2>
                     <h1>Tremolo Pedal</h1>
-                    <p>I built a tremolo pedal using a transistor-based variable phase shift oscillator. After learning more about guitar
-                        pedal design from my previous project, I was able to implement true bypass switching, anti-pop resistors, and use a 9V
-                        AC/DC adapter instead of a short-lived battery. The pedal also features amplitude and frequency control, with everything
+                    <p>I built a tremolo pedal using a transistor-based adjustable phase shift oscillator. After learning more about guitar
+                        pedal design from my previous project, I integrated true-bypass switching, anti-pop resistors, and a 9V AC/DC
+                        adapter instead of a short-lived battery. The pedal also features amplitude and frequency control, with everything
                         soldered and neatly packaged in a custom 3D-printed enclosure.
                     </p>
                     <a href="files/Hamza_Dugmag_Tremolo_Process.pdf" target="_blank"><div class="learn_more">
@@ -96,11 +83,11 @@
             <div class="project">
                 <img class="photograph mobile_view" src="images/eng_6-compressed.jpg" alt="Guitar fuzz pedal thumbnail.">
                 <div class="description">
-                    <h2>2022</h2>
+                    <h2>12/2022</h2>
                     <h1>Fuzz Pedal</h1>
-                    <p>I applied my knowledge from my recently completed electronics course to design a fuzz pedal for my electric guitar.
-                        It is based on a common-emitter NPN Darlington pair and features a volume control and power indicator, all soldered
-                        and neatly packaged in a custom 3D-printed enclosure.
+                    <p>I applied my recently completed electronics course to design a fuzz pedal for my electric guitar.
+                        It is based on a common-emitter NPN Darlington pair and features a volume control and power indicator,
+                        all soldered and neatly packaged in a custom 3D-printed enclosure.
                     </p>
                     <a href="files/Hamza_Dugmag_Fuzz_Process.pdf" target="_blank"><div class="learn_more">
                         <img class="arrow" width="34" height="34" src="images/arrow_red.svg" alt="">
@@ -120,11 +107,11 @@
                 <img class="photograph mobile_view" width="700" height="413" src="images/eng_4-compressed.jpg" alt="HID morse keyer thumbnail.">
                 <img class="photograph web_view" width="700" height="413" src="images/eng_4-compressed.jpg" alt="HID morse keyer thumbnail.">
                 <div class="description">
-                    <h2>2022</h2>
+                    <h2>01/2022</h2>
                     <h1>Morse Keyer</h1>
-                    <p>As an amateur radio hobbyist, I designed a custom morse keyer based on an <span class="italics">Arduino</span> microcontroller.
-                        The device was drawn in <span class="italics">Fusion 360</span> for 3D-printing, programmed using <span class="italics">C++</span>,
-                        and interfaces with my computer via <span class="italics">Python</span>.
+                    <p>As a licensed amateur radio hobbyist, I designed a custom Morse keyer based on an <span class="italics">Arduino</span> microcontroller.
+                        The device was drawn in <span class="italics">Fusion 360</span> for 3D printing, programmed using <span class="italics">C++</span>,
+                        and can interface with my computer via <span class="italics">Python</span>.
                     </p>
                     <a href="https://github.com/hamza-dugmag/morse-keyer" target="_blank"><div class="learn_more">
                         <img class="arrow" width="34" height="34" src="images/arrow_steel.svg" alt="">
@@ -146,11 +133,11 @@
             <div class="project">
                 <img class="photograph mobile_view" src="images/eng_5-compressed.jpg" alt="Avionics ground system thumbnail.">
                 <div class="description">
-                    <h2>2021 · U of T Aerospace Team (Rocketry Division)</h2>
+                    <h2>Avionics Subsystem Lead<br>06/2021 — 05/2022 @U of T Aerospace Team</h2>
                     <h1>Avionics Ground System</h1>
-                    <p>I designed and built the avionics system used to initiate and control launch procedures for our hybrid and
-                        liquid engine rockets. It features power electronics, a <span class="italics">Raspberry Pi</span> loaded with
-                        a custom GUI, a DAQ card for load cells and pressure transducers, and a wireless transceiver.
+                    <p>I designed and built the avionics system to initiate and control launch procedures for our hybrid- and
+                        liquid-engine rockets. It features Li-ion batteries, buck/boost converters, a <span class="italics">Raspberry Pi</span>
+                        loaded with a custom GUI, a DAQ board for load cells and pressure transducers, and a wireless radio transceiver.
                     </p>
                     <a href="files/Hamza_Dugmag_Ground_System.pdf" target="_blank"><div class="learn_more">
                         <img class="arrow" width="34" height="34" src="images/arrow_brown.svg" alt="">
