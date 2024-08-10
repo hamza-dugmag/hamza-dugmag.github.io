@@ -5,14 +5,11 @@ A custom, responsive, and branded website showcasing my work in engineering, res
 
 Todo:
 
-- [ ] Add other experiences
-- [ ] Delete/archive unused files
 - [ ] Zoom based on screen size?
-- [ ] PDF Favicon
-- [ ] Rename images
+- [ ] Change thumbnails?
 - [ ] New logo?
-- [ ] Change thumbnails
+- [ ] Custom cursor?
+- [ ] PDF Favicon
 - [ ] Prevent hover reaction outside button
-- [ ] Custom cursor
 
 © 2003-2024 HAMZA DUGMAG
