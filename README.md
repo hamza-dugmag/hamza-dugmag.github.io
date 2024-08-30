@@ -11,5 +11,6 @@ Todo:
 - [ ] Custom cursor?
 - [ ] PDF Favicon
 - [ ] Prevent hover reaction outside button
+- [ ] University labs
 
 © 2003-2024 HAMZA DUGMAG
