@@ -1,7 +1,7 @@
 # Hamza Dugmag's Portfolio
 ## https://hamzadugmag.com
 
-A custom, responsive, and branded website showcasing my work in engineering, research, and game design.
+My custom-built portfolio showcasing my professional experience and personal projects in engineering.
 
 Todo:
 
@@ -11,6 +11,6 @@ Todo:
 - [ ] Custom cursor?
 - [ ] PDF Favicon
 - [ ] Prevent hover reaction outside button
-- [ ] University labs
+- [ ] Add project: University labs
 
 © 2003-2024 HAMZA DUGMAG
