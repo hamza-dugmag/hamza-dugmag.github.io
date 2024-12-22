@@ -11,7 +11,5 @@ Todo:
 - [ ] Custom cursor?
 - [ ] PDF Favicon
 - [ ] Prevent hover reaction outside button
-- [ ] Add project: pneumatic engine (machining)
-- [ ] Add project: University labs?
 
 © 2003-2024 HAMZA DUGMAG
