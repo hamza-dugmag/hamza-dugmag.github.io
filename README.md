@@ -12,4 +12,4 @@ Todo:
 - [ ] PDF Favicon
 - [ ] Prevent hover reaction outside button
 
-© 2003-2024 HAMZA DUGMAG
+© 2003-2025 HAMZA DUGMAG
