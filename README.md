@@ -6,8 +6,6 @@ My custom-built portfolio showcasing my professional experience and personal pro
 Todo:
 
 - [ ] Zoom based on screen size?
-- [ ] Change thumbnails?
-- [ ] New logo?
 - [ ] Custom cursor?
 - [ ] PDF Favicon
 - [ ] Prevent hover reaction outside button

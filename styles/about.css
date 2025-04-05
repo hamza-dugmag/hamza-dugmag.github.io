@@ -48,7 +48,18 @@
 
 
 /* =================================== SMALLER SCREENS =================================== */
+.photograph.mobile_view {
+    display: none;
+}
+
 @media only screen and (max-width: 1300px) {
+    .photograph.mobile_view {
+        display: inline-block;
+    }
+    .photograph.web_view {
+        display: none;
+    }
+
     .divider {
         display: none;
         margin: 0;
