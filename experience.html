@@ -26,14 +26,18 @@
             }
 
             #section_first h1, #section_first .learn_more p {
-                color: var(--red);
+                color: var(--oak);
             }
 
             #section_2 h1, #section_2 .learn_more p {
-                color: var(--sky);
+                color: var(--red);
             }
 
             #section_3 h1, #section_3 .learn_more p {
+                color: var(--sky);
+            }
+
+            #section_4 h1, #section_4 .learn_more p {
                 color: var(--brown);
             }
 
@@ -57,18 +61,18 @@
         <!-- MAIN SECTION ======================================================================= -->
         <section class="section_main" id="section_first">
             <div class="project">
-                <img class="photograph mobile_view" width="700" height="413" src="images/half_bridge_pcb.jpg" alt="Half-bridge PCB layout.">
-                <img class="photograph web_view" width="700" height="413" src="images/half_bridge_pcb.jpg" alt="Half-bridge PCB layout.">
+                <img class="photograph mobile_view" width="700" height="413" src="images/thesis.jpg" alt="Current source inverter experimental setup.">
+                <img class="photograph web_view" width="700" height="413" src="images/thesis.jpg" alt="Current source inverter experimental setup.">
                 <div class="description">
-                    <h2>Power Electronics Research Intern<br>05/2024 to 08/2024 @U of T Lab for Advanced Power Conversion and Systems Analysis</h2>
-                    <h1>700 VDC Half-Bridge PCBA</h1>
-                    <p>Using <span class="italics">LTspice</span>, <span class="italics">Altium Designer</span>, and <span class="italics">PLECS</span>,
-                        I designed a half-bridge converter employing new high-voltage GaN devices. Since GaN is susceptible to switching losses and gate mistriggering
-                        and overdriving, we focused on the bootstrapped gate driver circuit, which we're level-shifting and controlling with HRPWM signals from a DSP.
+                    <h2>Undergraduate Thesis Student<br>09/2024 to 04/2025 @U of T Lab for Advanced Power Conversion and Systems Analysis</h2>
+                    <h1>Bidirectional-GaN Current Source Inverter</h1>
+                    <p>For my undergraduate thesis project, I used <span class="italics">Altium Designer</span> and <span class="italics">PLECS</span>
+                        to design a current source inverter featuring cutting-edge monolithic bidirectional gallium nitride switches. I successfully validated
+                        it on a three-phase resistive load with plans to deploy it as a variable speed drive for industrial PCB-stator axial-flux PMSMs.
                     </p>
-                    <a href="files/Hamza_Dugmag_Power_Electronics_Internship.pdf" target="_blank"><div class="learn_more">
-                        <img class="arrow" width="34" height="34" src="images/arrow_red.svg" alt="">
-                        <p>View Project</p>
+                    <a href="#" target="_blank"><div class="learn_more">
+                        <img class="arrow" width="34" height="34" src="images/arrow_oak.svg" alt="">
+                        <p>Stay Tuned...</p>
                     </div></a>
                 </div>
             </div>
@@ -76,7 +80,27 @@
 
         <section class="section_main" id="section_2">
             <div class="project">
+                <img class="photograph mobile_view" width="700" height="413" src="images/half_bridge_pcb.jpg" alt="Half-bridge PCB layout.">
+                <div class="description">
+                    <h2>Power Electronics Research Intern<br>05/2024 to 08/2024 @U of T Lab for Advanced Power Conversion and Systems Analysis</h2>
+                    <h1>700V Buck Converter</h1>
+                    <p>Using <span class="italics">LTspice</span>, <span class="italics">Altium Designer</span>, and <span class="italics">PLECS</span>,
+                        I designed a half-bridge converter employing new high-voltage GaN devices. To minimize switching losses and the risk of gate mistriggering/overdriving,
+                        I focused on optimizing the design and layout of the level-shifted bootstrap gate driver circuit.
+                    </p>
+                    <a href="files/Hamza_Dugmag_Power_Electronics_Internship.pdf" target="_blank"><div class="learn_more">
+                        <img class="arrow" width="34" height="34" src="images/arrow_red.svg" alt="">
+                        <p>View Project</p>
+                    </div></a>
+                </div>
+                <img class="photograph web_view" width="700" height="413" src="images/half_bridge_pcb.jpg" alt="Half-bridge PCB layout.">
+            </div>
+        </section>
+
+        <section class="section_main" id="section_3">
+            <div class="project">
                 <img class="photograph mobile_view" width="700" height="413" src="images/intel_niosv.jpg" alt="Nios V product line.">
+                <img class="photograph web_view" width="700" height="413" src="images/intel_niosv.jpg" alt="Nios V product line.">
                 <div class="description">
                     <h2>RTL Design Engineering Intern<br>05/2023 to 04/2024 @Intel Corporation</h2>
                     <h1>FPGA Soft Processor</h1>
@@ -90,14 +114,12 @@
                         <p>View Product Page</p>
                     </div></a>
                 </div>
-                <img class="photograph web_view" width="700" height="413" src="images/intel_niosv.jpg" alt="Nios V product line.">
             </div>
         </section>
 
-        <section class="section_main" id="section_3">
+        <section class="section_main" id="section_4">
             <div class="project">
                 <img class="photograph mobile_view" width="700" height="413" src="images/asv_navigation.jpg" alt="Clearpath Heron ASV in a lake.">
-                <img class="photograph web_view" width="700" height="413" src="images/asv_navigation.jpg" alt="Clearpath Heron ASV in a lake.">
                 <div class="description">
                     <h2>Field Robotics Research Intern<br>05/2022 to 08/2022 @UTIAS Autonomous Space Robotics Lab</h2>
                     <h1>ASV Stochastic Navigation</h1>
@@ -119,12 +141,14 @@
                         <p>View Website</p>
                     </div></a>
                 </div>
+                <img class="photograph web_view" width="700" height="413" src="images/asv_navigation.jpg" alt="Clearpath Heron ASV in a lake.">
             </div>
         </section>
 
         <section class="section_main" id="section_last">
             <div class="project">
                 <img class="photograph mobile_view" width="700" height="413" src="images/hdbscan.jpg" alt="Forcolab Group thumbnail.">
+                <img class="photograph web_view" width="700" height="413" src="images/hdbscan.jpg" alt="Forcolab Group thumbnail.">
                 <div class="description">
                     <h2>Machine Learning Research Intern<br>05/2021 to 08/2021 @U of T Forcolab Group</h2>
                     <h1>Clustering <span style="font-family: Canela-RegularItalic;">Stack Overflow</span> Posts</h1>
@@ -141,7 +165,6 @@
                         <p>View Project</p>
                     </div></a>
                 </div>
-                <img class="photograph web_view" width="700" height="413" src="images/hdbscan.jpg" alt="Forcolab Group thumbnail.">
             </div>
         </section>
         <!-- MAIN SECTION ======================================================================= -->
