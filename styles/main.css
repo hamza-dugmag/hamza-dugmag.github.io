@@ -126,16 +126,23 @@ p {
 }
 
 /* =================================== NAVIGATION =================================== */
-.p_link {
-    font-family: Helvetica-Roman;
-    text-decoration: underline;
-}
-
 li, a {
     font-family: Canela-Regular;
     font-size: 14px;
     color: var(--black);
     text-decoration: none;
+}
+
+.p_link {
+    font-family: Helvetica-Roman;
+    text-decoration: underline;
+}
+
+.h2_link {
+    font-family: Helvetica-Bold;
+    font-size: 14px;
+    color: var(--black);
+    text-decoration: underline;
 }
 
 header {

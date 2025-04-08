@@ -9,5 +9,6 @@ Todo:
 - [ ] Custom cursor?
 - [ ] PDF Favicon
 - [ ] Prevent hover reaction outside button
+- [ ] Project: capstone
 
 © 2025 HAMZA DUGMAG
