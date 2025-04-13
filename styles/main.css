@@ -1,4 +1,9 @@
 /* © 2025 HAMZA DUGMAG */
+
+p {
+    text-align: justify;
+}
+
 /* =================================== VARIABLES =================================== */
 @font-face {
     font-family: Canela-Regular;
