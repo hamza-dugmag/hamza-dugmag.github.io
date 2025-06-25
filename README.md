@@ -9,6 +9,6 @@ Todo:
 - [ ] Custom cursor?
 - [ ] PDF Favicon
 - [ ] Prevent hover reaction outside button
-- [ ] Project: capstone
+- [ ] Move thesis to projects, add new experience, remove old stuff
 
 © 2025 HAMZA DUGMAG
